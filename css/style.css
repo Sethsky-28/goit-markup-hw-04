@@ -325,6 +325,35 @@ button {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
+.team-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap:24px;
+}
+
+.team-icon-link svg {
+    width: 16px;
+    height: 16px;
+    fill: var(--cloud);  
+}
+
+
+.team-icon-link {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--iris);
+    border-radius: 20px;
+}
+
+.team-icon-link:hover svg{
+    fill: var(--green);
+}
+
 .name-position {
     display: flex;
     flex-direction: column;
