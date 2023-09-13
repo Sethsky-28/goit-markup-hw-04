@@ -413,18 +413,19 @@ button {
     align-items: flex-start;
 }
 
-.customer-link {
+.customers-link {
     display: flex;
     flex-shrink: 0;
     align-items: center;
+    justify-content: center;
     width: 168px;
     height: 88px;
     border-radius: 4px;
     border: 1px solid var(--lightslate);
 }
 
-.customer-link svg{
-    fill: var(--ocean);
+.customers-link svg{
+    fill: var(--lightslate);
 }
 
 .footer-description {
