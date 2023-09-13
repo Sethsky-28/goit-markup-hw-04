@@ -145,7 +145,11 @@ button {
 .section-hero {
     background-color: var(--navyblue);
     margin: 0px;
-    padding: 188px 0;    
+    padding: 188px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../imagesportfolio/people-office.jpg");
 }
 
 .container-hero {
@@ -157,6 +161,7 @@ button {
     flex-direction: column;
     flex-shrink: 0;
     gap: 48px;
+    
 }  
 
 .hero-title {
@@ -205,6 +210,15 @@ button {
     gap: 24px;
     flex-shrink: 0px;
 }
+
+.features-icon {
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    background: var(--cloud);
+    flex-shrink: 0;
+    padding: 24px 100px;
+}  
 
 .features-item {
     display: inline-flex;
