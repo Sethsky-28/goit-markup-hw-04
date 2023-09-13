@@ -332,12 +332,9 @@ button {
     column-gap:24px;
 }
 
-.team-icon-link svg {
-    width: 16px;
-    height: 16px;
-    fill: var(--cloud);  
+.team-icon-link svg{    
+    fill: var(--cloud);
 }
-
 
 .team-icon-link {
     display: flex;
@@ -351,7 +348,7 @@ button {
 }
 
 .team-icon-link:hover svg{
-    fill: var(--green);
+    fill: var(--ocean);
 }
 
 .name-position {
