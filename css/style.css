@@ -441,7 +441,6 @@ button {
 .footer-description {
     font-size: 16px;
     font-style: normal;
-    width: 264px;
     line-height: 1.5em;
     color: var(--cloud);
     letter-spacing: 0.32px;    
@@ -458,6 +457,8 @@ button {
     width: 1158px;
     margin: 0 auto;
     flex-shrink: 0;
+    height: 112px;
+    flex-shrink: 0;
 }
 
 .footer-logo {
@@ -469,7 +470,7 @@ button {
     line-height: 1.16em;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    flex-shrink: 0;        
+    flex-shrink: 0;
 }
 
 .social-media {
@@ -484,8 +485,6 @@ button {
         
 .logo-container {
     margin-top: 16px;
-    width: 208px;
-    height: 80px;
     flex-shrink: 0;
 }
 
@@ -493,6 +492,11 @@ button {
     display: flex;
     flex-direction: column;
     row-gap: 16px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-shrink: 0;
+    margin-top: -105px;
+    padding-left: 540px;
 }
 
 .footer-icons {
