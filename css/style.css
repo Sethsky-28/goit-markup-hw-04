@@ -347,8 +347,8 @@ button {
     border-radius: 20px;
 }
 
-.team-icon-link:hover svg{
-    fill: var(--ocean);
+.team-icon-link:hover {
+    background-color: var(--ocean);
 }
 
 .name-position {
@@ -430,6 +430,14 @@ button {
     fill: var(--lightslate);
 }
 
+.customers-link:hover svg{
+    fill: var(--ocean);
+}
+
+.customers-link:hover {
+    border: 1px solid var(--ocean);
+}
+
 .footer-description {
     font-size: 16px;
     font-style: normal;
@@ -449,7 +457,6 @@ button {
 .container-footer {
     width: 1158px;
     margin: 0 auto;
-    display: block;                                              */
     flex-shrink: 0;
 }
 
@@ -468,6 +475,43 @@ button {
 .logo-container {
     margin-top: 16px;
 }
+
+.icons-container {    
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--iris);
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.footer-icon-link svg{
+    fill: var(--cloud);  
+}
+
+.footer-icon-link:hover {
+    background-color: var(--green)
+}
+/* .footer-icon-link:hover {
+    fill: var(--green);
+} */
+
+/* .footer-icon-item:hover {
+    fill: var(--green);
+} */
 
 .filters {
     padding: 96px 0px 0px 0px;
