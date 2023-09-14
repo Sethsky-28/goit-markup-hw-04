@@ -472,8 +472,21 @@ button {
     flex-shrink: 0;        
 }
 
+.social-media {
+    color: var(--white);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+        
 .logo-container {
     margin-top: 16px;
+    width: 208px;
+    height: 80px;
+    flex-shrink: 0;
 }
 
 .icons-container {    
@@ -505,13 +518,6 @@ button {
 .footer-icon-link:hover {
     background-color: var(--green)
 }
-/* .footer-icon-link:hover {
-    fill: var(--green);
-} */
-
-/* .footer-icon-item:hover {
-    fill: var(--green);
-} */
 
 .filters {
     padding: 96px 0px 0px 0px;
