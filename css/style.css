@@ -110,6 +110,30 @@ button {
     gap: 40px;     
 }
 
+.nav-item {
+    position: relative;    
+}
+
+.nav-item:hover .nav-link {
+    color: var(--ocean);
+}
+
+.nav-item:hover .nav-link::after {
+    width: 100%;
+    color: var(--ocean);
+}
+
+.nav-link::after {
+    content: '';
+    height: 4px;
+    width: 0;
+    background-color: var(--ocean);
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -25px;
+}
+
 .nav-link {
     color: var(--navyblue);
     line-height: 1.5em;      
@@ -120,7 +144,7 @@ button {
     display: flex;
 }
 
-.nav-link:hover,
+/* .nav-link:hover, */
 .address-link:hover {
     color: var(--ocean);
 }
