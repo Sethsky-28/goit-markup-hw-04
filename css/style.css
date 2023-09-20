@@ -480,7 +480,7 @@ button {
 
 .container-footer {
     display: flex;
-    flex-direction: row
+    flex-direction: row;
     width: 1158px;
     margin: 0 auto;
     height: 112px;
